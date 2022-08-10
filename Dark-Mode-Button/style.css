@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+* {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+section {
+
+    position: relative;
+    width: 100%;
+    min-width: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    
+}
+
+header{
+
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;    
+    align-items: center;
+    background-color: white;
+    
+}
+
+.logo {
+
+    width: 150px;
+    height: 100px;
+}
+
+header ul {
+
+    position: relative;
+    display: flex;
+    
+}
+
+header ul li{
+
+    display: inline-block;
+    color: #333;
+    font-weight: 300;
+    margin-left: 15px;
+    text-decoration: none;    
+
+}
+
+.content {
+
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+
+}
+
+h2 {
+
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 4em;
+    line-height: 1.4em;
+    font-weight: 500;
+    
+}
+
+h2 span {
+
+    color: rgb(201, 4, 4);
+    font-size: 1.2em;
+    font-weight: 900;
+
+}
+
+p {
+
+    color: black;
+    font-size: 1.3em;
+    font-family: 'Poppins', sans-serif;
+
+    
+}
+
+.textBox a{
+
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    font-family: 'Poppins', sans-serif;
+    background: rgb(201, 4, 4);
+    color: white;
+    border-radius: 40px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    
+}
+
+.imageBox {
+
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    margin-top: 50px;
+    
+}
+
+.jam {
+
+    width: 600px;
+    height: 350px;
+
+}
+
+.imageBox img {
+
+    max-width: 600px;
+
+}
+
+/* ------------------------------ Estilos para o tema escuro (Dark-Mode) ----------------------------------------------- */
+
+/* Os seguintes estilos são os que usaremos para aplicar o modo escuro, 
+você terá que modificar os seletores a fim de poder resolver o exercício. */
+
+/* A cor de fundo da página  */
+
+.section-on {
+
+    background-color: black;
+        
+}
+
+.h2-on {
+
+    color: white;
+}
+
+.p-on {
+
+    color: white;
+}
