@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+/* Reset CSS */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  user-select: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* CSS Geral */
+
+body {
+  scroll-behavior: smooth;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.background {
+  background-color: black;
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+}
+
+/* Formulario */
+form {
+  margin: 1%;
+  border-radius: 30px;
+  padding: 20px;
+}
+
+
+.sendInfo {
+  background-color: #F94892;
+  border-radius: 30px;
+  color: #0d0d0d;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin: 30px;
+}
+
+.sendInfo input {
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  margin: 5px;
+  padding: 5px;
+}
+
+.sendInfo button {
+  width: 80px;
+  cursor: pointer;
+  margin-left: 5px;
+
+}
+
+/* Estilização da DIV do card */
+.catalogue {
+  display: flex;
+  gap: 30px;
+  padding: 30px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Cartão (Cards Recebidos) */
+
+.book-card {
+  /* display: none; */
+  box-shadow: hsla(240, 5%, 41%, 0.2) 0px 7px 29px 0px;
+  border-radius: 30px;
+}
+
+.container .book-card {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+/* Editora | Autor | Páginas | Ano */
+.book-card .card-top {
+  padding: 30px 40px 0;
+}
+
+/* Nome */
+.book-card .name {
+  margin-bottom: 5px;
+}
+
+
+/* Detalhes */
+.book-card .details {
+  color: #f8eaea;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Imagem do Livro  */
+.book-card .img-card {
+  width: 350px;
+  height: 350px;
+}
+
+/* Imagem do Livro (img) */
+.book-card img {
+  max-height: 100%;
+  border-radius: 20px;
+  padding: 10px;
+  width: 100%;
+}
+
+/* Informações do Livro  */
+.book-card .card-info {
+  display: flex;
+  background-color: #FFFFFF;
+  padding: 80px 30px 50px;
+  margin-top: -70px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+/* Informações do Livro */
+.book-card .card-info h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #6B727A;
+  display: flex;
+}
+
+
+.book-card .card-info .information, .book-card .card-info .rate {
+  padding: 0 10px;
+  width: 180px;
+}
+
+/* ul e Li */
+.book-card .card-info .information ul li, .book-card .card-info .rate ul li {
+
+  border-bottom: 1px solid #C3C4C5;
+  padding: 0 0 5px;
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+
+#buttonDiv{
+
+text-align: center;
+
+}
+
+#btnSend, #btnReset {
+  color: #0c0c0c;
+  border-color: #0c0c0c;
+  background-color: transparent;
+  background-image: none;
+  ;
+}
+
+#btnSend:hover, #btnReset:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
+  background-color: black;
+  color: white;
+} 
