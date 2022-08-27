@@ -25,16 +25,18 @@
 
       <form>
         <label for="bookName">Nome:</label> <br>
-        <input type="text" class="bookName" id="bookName" placeholder="Nome do Livro" name="bookName" required="required"><br><br>
+        <input type="text" class="bookName" id="bookName" placeholder="Nome do Livro" name="bookName" maxlength="16" required="required"><br><br>
 
+        <!--
         <label for="bookId">Id. Catálogo:</label> <br>
         <input type="text" class="bookId" id="bookName" placeholder="Id Catálogo" name="bookId" maxlength="4" required="required"><br><br>
+         -->
 
         <label for="bookInfo">Informações:</label>
-        <input type="text" class="publisher" id="publisher" placeholder="Editora" name="publisher" required="required"> <br>
-        <input type="text" class="author" id="author" placeholder="Autor(a)" name="author" required="required"> <br>
+        <input type="text" class="publisher" id="publisher" placeholder="Editora" name="publisher" maxlength="10" required="required"> <br>
+        <input type="text" class="author" id="author" placeholder="Autor(a)" name="author" maxlength="26" required="required"> <br>
         <input type="text" class="pages" id="pages" placeholder="Nº Páginas" name="pages" required="required"> <br>
-        <input type="text" class="release" id="release" placeholder="Ano Lançamento" name="release" required="required"> <br><br>
+        <input type="text" class="release" id="release" placeholder="Ano Lançamento" name="release" maxlength="4" required="required"> <br><br>
 
         <label for="rate">Avaliação:</label> <br>
         <select name="rate" id="rate">
