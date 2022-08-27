@@ -28,6 +28,8 @@ function addBook(info) {
   bookCard.push(info)
 
   // Modificando o conteúdo HTML
+  //<span> <br><br> Id# ${bookInfo.bookId}</span>
+  
   cardDiv.innerHTML = "";
 
   bookCard.forEach((bookInfo) => {
@@ -44,7 +46,7 @@ function addBook(info) {
 
             <div class="details">
               <h2 class="name"> ${bookInfo.bookName}</h2>
-              <span> <br><br> Id# ${bookInfo.bookId}</span>
+              
             </div>
 
             <div class="container img-card">
